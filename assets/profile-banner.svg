@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">xiaoyao12740 GitHub profile banner</title>
+  <desc id="desc">A dark blue technology banner with connected data nodes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.52" stop-color="#102a56"/>
+      <stop offset="1" stop-color="#321968"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#93c5fd" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="26" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="26" fill="url(#grid)"/>
+  <circle cx="1070" cy="-10" r="210" fill="#7c3aed" opacity="0.12"/>
+  <circle cx="925" cy="330" r="190" fill="#0284c7" opacity="0.12"/>
+  <g stroke="url(#accent)" stroke-width="2" opacity="0.55">
+    <path d="M800 92 L900 50 L1000 102 L1110 55"/>
+    <path d="M800 92 L860 175 L970 155 L1080 235"/>
+    <path d="M860 175 L780 255 L940 270 L1080 235"/>
+    <path d="M970 155 L1000 102 L1080 235"/>
+  </g>
+  <g fill="#7dd3fc" filter="url(#glow)">
+    <circle cx="800" cy="92" r="6"/><circle cx="900" cy="50" r="5"/>
+    <circle cx="1000" cy="102" r="7"/><circle cx="1110" cy="55" r="5"/>
+    <circle cx="860" cy="175" r="7"/><circle cx="970" cy="155" r="5"/>
+    <circle cx="780" cy="255" r="5"/><circle cx="940" cy="270" r="7"/>
+    <circle cx="1080" cy="235" r="6"/>
+  </g>
+  <text x="72" y="128" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1">xiaoyao12740</text>
+  <rect x="72" y="153" width="520" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="72" y="205" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">MODEL  ·  BUILD  ·  VISUALIZE</text>
+  <text x="72" y="249" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="19">Mathematical Modeling  /  Machine Learning  /  Applied Software</text>
+</svg>
