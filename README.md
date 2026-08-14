@@ -12,7 +12,7 @@
 
 我专注于**应用机器学习、数据分析工程与 AI 工程**，也保留数学建模与优化背景。我喜欢把问题推进成完整项目：定义口径、构建数据、训练或分析、验证结果、设计失败策略，并通过测试、CI、文档和可复现实验留下证据。
 
-目前的核心作品集覆盖计算机视觉、NLP、用户价值与流失、MySQL 电商分析，以及带证据约束的本地 LLM PDF 抽取。这些项目已经完成集中审计与封版，后续只处理缺陷，不继续堆叠无关功能。
+目前的核心作品集覆盖计算机视觉、NLP、用户价值与流失、MySQL 电商分析，以及带证据约束的本地 LLM PDF 抽取。核心项目均提供可复现实验、测试、CI 与工程验证证据。
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-ML%20%26%20Data-3776ab?logo=python&logoColor=white">
@@ -82,14 +82,6 @@
   </tr>
 </table>
 
-## 我如何判断项目完成
-
-- **结果可追溯：** README 中的指标来自版本化产物、SQL 查询或固定种子实验。
-- **评估不越界：** 模型选择只使用训练/验证信息，测试集保留到最后一次评估。
-- **数据可对账：** 关键业务指标在 SQL、Python 和数据库之间建立可执行验证。
-- **失败可解释：** 外部服务、JSON、Schema、超时和数据质量异常都有明确策略。
-- **代码可复现：** 提供环境、命令、测试、CI、Docker 或数据库初始化说明。
-
 ## 更多作品
 
 - [DeepVision Studio](https://github.com/xiaoyao12740/deepvision-studio) — MNIST 训练、推理、反馈与实验报告。
@@ -112,11 +104,10 @@ My current flagship portfolio demonstrates five distinct capabilities:
 
 Across these repositories, I emphasize honest evaluation, executable data checks, explicit failure semantics, CI-tested workflows, and documentation that explains both results and limitations.
 
-## 联系与浏览 / Connect & Explore
+## 联系方式 / Contact
 
 <p align="center">
-  <a href="https://github.com/xiaoyao12740?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Browse-29%20Public%20Repositories-2563eb?logo=github&logoColor=white"></a>
-  <a href="https://github.com/xiaoyao12740?tab=stars"><img alt="Stars" src="https://img.shields.io/badge/Explore-Starred%20Projects-f59e0b?logo=github&logoColor=white"></a>
+  📧 <a href="mailto:xiaoyaotongxue8@gmail.com">xiaoyaotongxue8@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/xiaoyao12740?tab=repositories">GitHub Projects</a>
 </p>
-
-<p align="center"><sub>Thanks for visiting. 如果这些项目对你有帮助，欢迎 Star 或通过 Issue 交流。</sub></p>
