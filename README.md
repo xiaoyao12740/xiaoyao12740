@@ -1,128 +1,121 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="xiaoyao12740 — Model, Build, Visualize" width="100%">
+  <img src="assets/profile-banner.svg" alt="xiaoyao12740 — Model, Build, Validate" width="100%">
 </p>
 
 <p align="center">
-  <a href="README.md">中文</a> ·
+  <a href="#你好我是-xiaoyao12740-">中文</a> ·
   <a href="#english">English</a> ·
   <a href="https://github.com/xiaoyao12740?tab=repositories">全部项目 / All Projects</a>
 </p>
 
 ## 你好，我是 xiaoyao12740 👋
 
-我喜欢把一个想法推进成可以运行、可以验证、也可以清楚展示的完整项目。目前主要探索数学建模、机器学习、深度学习、优化算法与交互式应用。
+我专注于**应用机器学习、数据分析工程与 AI 工程**，也保留数学建模与优化背景。我喜欢把问题推进成完整项目：定义口径、构建数据、训练或分析、验证结果、设计失败策略，并通过测试、CI、文档和可复现实验留下证据。
 
-我的仓库不仅保存代码，也尽量保留问题背景、方法设计、真实结果、复现步骤和中英双语文档。
+目前的核心作品集覆盖计算机视觉、NLP、用户价值与流失、MySQL 电商分析，以及带证据约束的本地 LLM PDF 抽取。这些项目已经完成集中审计与封版，后续只处理缺陷，不继续堆叠无关功能。
 
 <p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-ML%20%26%20Data-3776ab?logo=python&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-Computer%20Vision-ee4c2c?logo=pytorch&logoColor=white">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-Modeling-f7931e?logo=scikitlearn&logoColor=white">
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-Analytics-4479a1?logo=mysql&logoColor=white">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-Delivery-2496ed?logo=docker&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-CI-2088ff?logo=githubactions&logoColor=white">
   <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-Modeling-e16737?logo=mathworks&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-Machine%20Learning-3776ab?logo=python&logoColor=white">
-  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-Interactive%20Apps-ff4b4b?logo=streamlit&logoColor=white">
-  <img alt="Unity" src="https://img.shields.io/badge/Unity-Game%20Development-000000?logo=unity&logoColor=white">
-  <img alt="Java" src="https://img.shields.io/badge/Java-Web%20Development-f89820?logo=openjdk&logoColor=white">
 </p>
 
-### 我在做什么
+### 能力主线
 
-| 方向 | 关注内容 |
+| 方向 | 我关注的工程问题 |
 | --- | --- |
-| 🤖 机器学习 | 表格分类与回归、深度学习、模型比较、可解释性与反馈闭环 |
-| 📐 数学建模 | 运筹优化、动力系统、参数估计、情景模拟与决策分析 |
-| 🧩 应用开发 | Streamlit 数据应用、Unity 游戏、Java Web 与 Docker 化交付 |
-| 📊 结果表达 | 可复现实验、图表报告、中英双语 README 与项目主页设计 |
+| 🤖 机器学习 | 时间切分、泄漏防护、模型选择、概率评估、可复现实验 |
+| 📊 数据分析工程 | SQL-first 分析、MySQL 数据建模、质量门禁、指标对账与查询优化 |
+| 🧠 AI 工程 | Local LLM、PDF 解析、证据绑定、拒答、Schema 与运行时失败策略 |
+| 📐 数学建模 | 运筹优化、动力系统、参数估计、仿真与决策分析 |
+| 🧩 工程交付 | FastAPI、Streamlit、Docker、pytest、Ruff、GitHub Actions 与双语文档 |
 
-## 精选项目 / Featured Projects
+## 核心项目 / Flagship Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xiaoyao12740/deepvision-studio">DeepVision Studio</a></h3>
-      <p>MNIST 深度学习工作室：训练、推理、反馈分析、再训练与实验报告。</p>
-      <p><code>Python</code> <code>Deep Learning</code> <code>Streamlit</code></p>
+      <h3><a href="https://github.com/xiaoyao12740/llm-pdf-data-extraction">LLM PDF Data Extraction</a></h3>
+      <p>规则优先、选择性调用本地 LLM 的 PDF 结构化抽取管线。实现字段专属 value↔evidence 绑定、拒答与恢复指标、严格 Schema、运行时失败策略、MySQL provenance 和迁移测试。</p>
+      <p><strong>验证：</strong>受控合成基准上 59 次语义恢复、4/4 缺失值拒答；Python 3.10–3.12 + MySQL CI。</p>
+      <p><code>Local LLM</code> <code>PDF</code> <code>Pydantic</code> <code>MySQL</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xiaoyao12740/universal-classifier">Universal Classifier</a></h3>
-      <p>AutoML 风格表格分类平台：CSV 导入、模型比较、注册与报告。</p>
-      <p><code>Python</code> <code>Classification</code> <code>Docker</code></p>
+      <h3><a href="https://github.com/xiaoyao12740/mysql-ecommerce-user-analytics">MySQL E-commerce Analytics</a></h3>
+      <p>SQL-first 电商用户行为分析工程，覆盖漏斗、留存、复购、RFM、商品表现和查询优化；Python 只负责生成、执行、导出与可视化，不复制业务 SQL。</p>
+      <p><strong>验证：</strong>14 项阻断式 DQ 检查，商品收入与成功订单金额按分对账；CI 运行真实 MySQL 链路。</p>
+      <p><code>MySQL 8</code> <code>SQL</code> <code>RFM</code> <code>Data Quality</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xiaoyao12740/smarthouse-regression">SmartHouse Regression</a></h3>
-      <p>双语房价回归应用：多模型对比、解释性分析、单位换算与交互预测。</p>
-      <p><code>Regression</code> <code>Explainability</code> <code>Streamlit</code></p>
+      <h3><a href="https://github.com/xiaoyao12740/user-ltv-churn-analytics">User LTV & Churn Analytics</a></h3>
+      <p>从 30,000 名模拟用户的行为历史构建 KPI、留存、LTV、流失风险和分群结果。训练、验证与测试按时间切分，并分别执行 90/30 天标签成熟约束。</p>
+      <p><strong>验证：</strong>防止特征泄漏和未成熟标签泄漏；SQL/Pandas 收入与 MySQL 行数、孤儿记录完成对账。</p>
+      <p><code>Machine Learning</code> <code>Time Split</code> <code>MySQL</code> <code>Power BI</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/xiaoyao12740/SIR-Respiratory-Researc">SIR Respiratory Research</a></h3>
-      <p>呼吸道疾病传播研究：区域分波拟合、残差诊断与干预情景模拟。</p>
-      <p><code>SIR</code> <code>MATLAB</code> <code>Python</code></p>
+      <h3><a href="https://github.com/xiaoyao12740/customer-voice-intelligence">Customer Voice Intelligence</a></h3>
+      <p>端到端客户情感分析平台：训练集 CV、验证集模型选择、锁定测试集一次评估，并提供向量化批量预测、FastAPI、Streamlit 与数据库持久化。</p>
+      <p><strong>验证：</strong>最终测试 Macro F1 84.82%、ROC-AUC 92.25%；报告概率质量与 Bootstrap 区间。</p>
+      <p><code>NLP</code> <code>scikit-learn</code> <code>FastAPI</code> <code>Streamlit</code></p>
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xiaoyao12740/industrial-defect-classifier">Industrial Defect Classifier</a></h3>
+      <p>基于 PyTorch 与迁移学习的工业表面缺陷分类系统，包含训练、评估、推理、双语演示和 Docker 交付。</p>
+      <p><strong>验证：</strong>NEU-CLS 正式实验 Accuracy 98.52%；CI 覆盖 tiny train → checkpoint → reload → inference 闭环，并明确区分轻量 CI 与完整实验。</p>
+      <p><code>PyTorch</code> <code>Computer Vision</code> <code>Transfer Learning</code> <code>Docker</code></p>
+    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/xiaoyao12740/uav-smoke-screen-optimization">UAV Smoke-Screen Optimization</a></h3>
-      <p>无人机烟幕投放策略：三维运动学、遮蔽判定与多平台协同优化。</p>
+      <p>无人机烟幕投放策略的数学建模项目：三维运动学、遮蔽判定、时序约束与多平台协同优化。</p>
+      <p><strong>定位：</strong>展示我在机器学习与数据工程之外的建模、仿真和优化能力。</p>
       <p><code>MATLAB</code> <code>Optimization</code> <code>Simulation</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/xiaoyao12740/link-link-arena">Link Link Arena</a></h3>
-      <p>Unity 连连看竞技场：AI 对手、比赛回放、历史记录与跨平台构建。</p>
-      <p><code>Unity</code> <code>C#</code> <code>Game Development</code></p>
     </td>
   </tr>
 </table>
 
-## 技术版图 / Technology Map
+## 我如何判断项目完成
 
-```mermaid
-mindmap
-  root((xiaoyao12740))
-    Modeling
-      MATLAB
-      Optimization
-      Simulation
-      SIR / ODE
-    Machine Learning
-      Classification
-      Regression
-      Deep Learning
-      Explainability
-    Applications
-      Streamlit
-      Docker
-      Unity / C#
-      Java Web
-    Communication
-      Visualization
-      Reproducible Results
-      中文 / English
-```
+- **结果可追溯：** README 中的指标来自版本化产物、SQL 查询或固定种子实验。
+- **评估不越界：** 模型选择只使用训练/验证信息，测试集保留到最后一次评估。
+- **数据可对账：** 关键业务指标在 SQL、Python 和数据库之间建立可执行验证。
+- **失败可解释：** 外部服务、JSON、Schema、超时和数据质量异常都有明确策略。
+- **代码可复现：** 提供环境、命令、测试、CI、Docker 或数据库初始化说明。
 
-## 作品集概览 / Portfolio at a Glance
+## 更多作品
 
-| 公开仓库 | MATLAB 项目 | Python 项目 | 应用与游戏 |
-| ---: | ---: | ---: | ---: |
-| **22** | **16** | **4** | **2** |
-
-> 数字基于当前公开作品集整理；随着新项目发布会持续更新。
+- [DeepVision Studio](https://github.com/xiaoyao12740/deepvision-studio) — MNIST 训练、推理、反馈与实验报告。
+- [Universal Classifier](https://github.com/xiaoyao12740/universal-classifier) — AutoML 风格表格分类平台。
+- [SIR Respiratory Research](https://github.com/xiaoyao12740/SIR-Respiratory-Researc) — 疫情传播拟合与干预情景模拟。
+- [Link Link Arena](https://github.com/xiaoyao12740/link-link-arena) — Unity AI 对手、回放与跨平台构建。
+- [全部 29 个公开仓库](https://github.com/xiaoyao12740?tab=repositories) — 数学建模、机器学习、数据分析和应用开发作品集。
 
 ## English
 
-Hi, I’m **xiaoyao12740**. I enjoy turning ideas into complete projects that can be run, verified, and communicated clearly. My current interests include mathematical modeling, machine learning, deep learning, optimization, simulation, and interactive software.
+Hi, I’m **xiaoyao12740**. I build auditable, reproducible projects across **applied machine learning, analytics engineering, and AI engineering**, supported by a background in mathematical modeling and optimization.
 
-Across my repositories, I aim to keep the problem context, method, implementation, real outputs, reproduction steps, and bilingual documentation together—not just the source code.
+My current flagship portfolio demonstrates five distinct capabilities:
 
-### Current focus
+- [LLM PDF Data Extraction](https://github.com/xiaoyao12740/llm-pdf-data-extraction): local-LLM recovery with deterministic evidence grounding, abstention, validation, telemetry, and MySQL provenance.
+- [MySQL E-commerce Analytics](https://github.com/xiaoyao12740/mysql-ecommerce-user-analytics): SQL-first funnel, retention, RFM, product analytics, blocking data-quality gates, and revenue reconciliation.
+- [User LTV & Churn Analytics](https://github.com/xiaoyao12740/user-ltv-churn-analytics): maturity-aware temporal splits, leakage prevention, calibrated churn risk, and customer analytics.
+- [Customer Voice Intelligence](https://github.com/xiaoyao12740/customer-voice-intelligence): validation-based NLP model selection, vectorized batch inference, FastAPI, Streamlit, and database persistence.
+- [Industrial Defect Classifier](https://github.com/xiaoyao12740/industrial-defect-classifier): PyTorch transfer learning with a tested train-checkpoint-reload-inference lifecycle.
 
-- Building end-to-end classification, regression, and deep-learning workflows.
-- Applying optimization and dynamical systems to practical modeling problems.
-- Packaging technical work as interactive apps, visual reports, and reproducible repositories.
-- Improving how project results are explained in both Chinese and English.
+Across these repositories, I emphasize honest evaluation, executable data checks, explicit failure semantics, CI-tested workflows, and documentation that explains both results and limitations.
 
 ## 联系与浏览 / Connect & Explore
 
 <p align="center">
-  <a href="https://github.com/xiaoyao12740?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Browse-22%20Public%20Repositories-2563eb?logo=github&logoColor=white"></a>
+  <a href="https://github.com/xiaoyao12740?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Browse-29%20Public%20Repositories-2563eb?logo=github&logoColor=white"></a>
   <a href="https://github.com/xiaoyao12740?tab=stars"><img alt="Stars" src="https://img.shields.io/badge/Explore-Starred%20Projects-f59e0b?logo=github&logoColor=white"></a>
 </p>
 
