@@ -115,5 +115,5 @@ Across these repositories, I emphasize honest evaluation, executable data checks
 <p align="center">
   📧 <a href="mailto:xiaoyaotongxue8@gmail.com">xiaoyaotongxue8@gmail.com</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/xiaoyao12740?tab=repositories">GitHub Projects</a>
+  <a href="https://github.com/xiaoyao12740?tab=repositories">全部仓库 / All Repositories</a>
 </p>
